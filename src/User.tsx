@@ -1,7 +1,7 @@
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin } from "@tabler/icons-react";
 
 const socialLinks = [
-  {link:"https://github.com/Slayer-Saran-2002",icon:IconBrandGithub},
+  {link:"https://github.com/SyntaxSaran",icon:IconBrandGithub},
   {link:"https://www.linkedin.com/in/saranjeet-mondal-119456234/",icon:IconBrandLinkedin},
   {link:"https://instragam.com/_k.n.o.w.n_stranger_/",icon:IconBrandInstagram},
   {link:"https://leetcode.com/u/saran2002/",icon:IconBrandLeetcode},

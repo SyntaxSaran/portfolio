@@ -13,7 +13,7 @@ const TimeLineItem = (items:any) => {
         <Timeline.Item  data-aos="fade-up" data-aos-duration="800"  className="!pt-10 !mb-2 sm-mx:!p-1"  key={index} bullet={<IconBriefcaseFilled className="!text-bgColor " size={sz} />}>
             <div  className="border shadow-[0_0_10px_0_#64FFDA50] flex flex-col gap-2 border-primaryColor p-5 rounded-xl sm-mx:p-2">
                 <div className="flex gap-3 items-center">
-                    <img className="rounded-lg w-16 md-mx:w-14 xs-mx:w-10" src={`/${item.company}.png`} alt="company"/>
+                    <img className="rounded-lg w-16 md-mx:w-14 xs-mx:w-10" src={`${item.company}.png`} alt="company"/>
                     <div className="flex flex-col">
                         <div className="text-white text-2xl sm-mx:text-xl xs-mx:text-lg font-semibold">{item.role}</div>
                         <div className="text-textColor text-lg md-mx:text-base xs-mx:text-sm font-semibold">{item.company} &#x2022; {item.duration}</div>

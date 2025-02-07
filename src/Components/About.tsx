@@ -40,12 +40,12 @@ const About = () => {
             and Data Structures.My hobby is Stock Trading.</div>
           <div className="flex gap-3">
             <Button onClick={open} className="!w-fit !text-bgColor" variant="filled" size={btn} color="#64ffda" radius="md">Check Resume</Button>
-            <Button component="a" href="/saranjeetCV.pdf" download="Saranjeet Mondal" className="!w-fit" variant="outline" size={btn} color="#64ffda" radius="md" rightSection={<IconDownload size={20} />} >Download</Button>
+            <Button component="a" href="saranjeetCV.pdf" download="Saranjeet Mondal" className="!w-fit" variant="outline" size={btn} color="#64ffda" radius="md" rightSection={<IconDownload size={20} />} >Download</Button>
           </div>
         </div>
         <div className="w-fit h-fit flex justify-center items-center  bs:mr-14  rounded-full" id="photo">
           <NeonGradientCard className="w-[360px] h-[360px] lg-mx:w-64 lg-mx:h-64 items-center justify-center text-center rounded-full  ">
-            <img className=" rounded-full " src="/myPic5.jpg" alt="profile" />
+            <img className=" rounded-full " src="myPic5.jpg" alt="profile" />
           </NeonGradientCard>
         </div>
       </div>
